@@ -43,30 +43,38 @@ Home |------------->>>About us
 Page descriptions: 
 
 ----------------Page--------------------/-----------------Elements---------------------
+
 ----------------------------------------/----------------------------------------------
+
 Home                                    /Logo
                                         /Help: FAQ / Contact us
                                         /Sign in/up
                                         /Search form: surname and name and orcid and ID
                                         /About us
 ----------------------------------------/----------------------------------------------
+
 About us                                /About our product
 ----------------------------------------/----------------------------------------------
+
 Sign in/up                              /Data about users
 ----------------------------------------/----------------------------------------------
+
 Results                                 /Result table
                                         /Statistics
                                         /Create portfolio
                                         /Export to csv
 ----------------------------------------/----------------------------------------------
+
 Portfolio                               /Edit button
                                         /Import photo
                                         /List of publications
                                         /Send to github/ export to pdf
-----------------------------------------/----------------------------------------------                                        
+----------------------------------------/----------------------------------------------    
+
 Account                                 /Information about user
                                         /Last edit/create portfolio
-----------------------------------------/----------------------------------------------  
+----------------------------------------/---------------------------------------------- 
+
 Help                                    /Contact us
                                         /FAQ
 ----------------------------------------/----------------------------------------------
@@ -78,10 +86,12 @@ FRAMEWORKS:Django
 API:  scopus api
 Tools: Figma, Latex, etc
 ER-diagram
+
 URL(more accurately):https://docs.google.com/document/d/1G0_re7i6_oG6FaqYEGBu01qoJOU20ZxKJFzIpGoQsag/edit#
 
 
 ## Mockups, Wireframes
+
 URL(more accurately):
 https://docs.google.com/document/d/1G0_re7i6_oG6FaqYEGBu01qoJOU20ZxKJFzIpGoQsag/edit#
 
