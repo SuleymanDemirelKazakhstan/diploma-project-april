@@ -5,11 +5,15 @@
 + Kutzhan Aruzhan(180103137)- Data-Analyst, Data Engineer(GitHub account: https://github.com/Aruzhan180103137)
 + Niyetullayeva Albina(180103018)- Designer UX/UI,Frontend Developer (GitHub account: https://github.com/Niyetullayeva)
 
-## Project proposal
-URL(more accurately): https://docs.google.com/document/d/1G0_re7i6_oG6FaqYEGBu01qoJOU20ZxKJFzIpGoQsag/edit#
+
+
+
+## Project 
+Our project will make it possible to view and download the list of researcher's publications, and researchers can create their own portfolio, in which a list of publications will automatically appear and researchers add additional information if desired.
 
 ## Alternative / Market research 
-We held an online meeting with our mentor OLIMZHON BAIMURATOV. During the online meeting, he told the problem in the field of Scientation citation about publications. Teachers spend a lot of time collecting information about publications from various sources . We have conducted research and have not found sites that would provide a solution to this problem. We have found sites that help in creating a portfolio or that collect publications from a single source. And we decided to create a website that collects a list of publications and creates a portfolio.
+Alternative sites - scopus, scholar, IEEEXplore. 
+These sites are databases that houses articles from many different publishers. Each of them does not give a complete list of the publications of the researchers our task is to combine, filter and as a result collect a complete list of the works of the researchers.
 
 ## Goals
 Developing web application/ web scraping system for automatisation process of bibliometric data collection. 
@@ -26,74 +30,52 @@ SDU  STAFF & Researchers
 
 ## Sitemap. Page descriptions 
 
-URL(more accurately):   https://docs.google.com/document/d/1G0_re7i6_oG6FaqYEGBu01qoJOU20ZxKJFzIpGoQsag/edit#
-
-Sitemap:
-Home |------------->>>About us
-     |
-     |------------->>>Login/Registration --------->>>Account ----------|
-     |                                                                 |
-     |------------->>>Result -------------------->>>Portfolio <<<------|
-     |
-     |------------->>>Contact us
-     |
-     |------------->>>FAQ
++ Sitemap:
 
 
-Page descriptions: 
+![](https://github.com/SuleymanDemirelKazakhstan/diploma-project-april/blob/main/Diploma%20Document/figures/52a9f476-6221-41a5-a90d-dce00f768a9e.jpg)
 
-----------------Page--------------------/-----------------Elements---------------------
 
-----------------------------------------/----------------------------------------------
 
-Home                                    /Logo
-                                        /Help: FAQ / Contact us
-                                        /Sign in/up
-                                        /Search form: surname and name and orcid and ID
-                                        /About us
-----------------------------------------/----------------------------------------------
 
-About us                                /About our product
-----------------------------------------/----------------------------------------------
 
-Sign in/up                              /Data about users
-----------------------------------------/----------------------------------------------
++ Page descriptions: 
 
-Results                                 /Result table
-                                        /Statistics
-                                        /Create portfolio
-                                        /Export to csv
-----------------------------------------/----------------------------------------------
 
-Portfolio                               /Edit button
-                                        /Import photo
-                                        /List of publications
-                                        /Send to github/ export to pdf
-----------------------------------------/----------------------------------------------    
+|                Page                    |                  Elements                                                                                        |
+|----------------------------------------|------------------------------------------------------------------------------------------------------------------|
+|Home                                    |Logo <br> Help: FAQ / Contact us <br> Sign in/up <br> Search form: surname and name and orcid and ID <br> About us|
+|About us                                |About our product                                                                                                 |
+|Sign in/up                              |Data about users                                                                                                  |
+|Results                                 |Result table <br> Statistics <br> Create portfolio <br> Export to csv                                             |
+|Portfolio                               |Edit button <br> Import photo <br> List of publications <br> Send to github/ export to pdf                        |
+|Account                                 |Information about user <br> Last edit/create portfolio                                                            |
+|Help                                    |Contact us <br> FAQ                                                                                               |
 
-Account                                 /Information about user
-                                        /Last edit/create portfolio
-----------------------------------------/---------------------------------------------- 
-
-Help                                    /Contact us
-                                        /FAQ
-----------------------------------------/----------------------------------------------
 
 ## Describe technologies that will be used, describe domain (classes, ERD) 
-LANGUAGES:HTML, CSS, and JavaScript,  Python, php, Oracle, R 
-LIBRARIES: Serpapi, urllib, pandas, sqlite3
-FRAMEWORKS:Django
-API:  scopus api
-Tools: Figma, Latex, etc
-ER-diagram
++ LANGUAGES:HTML, CSS, and JavaScript,  Python, php, Oracle, R 
++ LIBRARIES: Serpapi, urllib, pandas, sqlite3
++ FRAMEWORKS:Django
++ API:  scopus api
++ Tools: Figma, Latex, etc.
 
-URL(more accurately):https://docs.google.com/document/d/1G0_re7i6_oG6FaqYEGBu01qoJOU20ZxKJFzIpGoQsag/edit#
++ ER-diagram:
+
+![](https://github.com/SuleymanDemirelKazakhstan/diploma-project-april/blob/main/Diploma%20Document/figures/24d97ce3-8cf6-4e47-8d82-69182521fc67.jpg)
 
 
 ## Mockups, Wireframes
 
-URL(more accurately):
-https://docs.google.com/document/d/1G0_re7i6_oG6FaqYEGBu01qoJOU20ZxKJFzIpGoQsag/edit#
+![](https://github.com/SuleymanDemirelKazakhstan/diploma-project-april/blob/main/Diploma%20Document/figures/Снимок%20экрана%202022-02-13%20в%2016.34.23.png)
+![](https://github.com/SuleymanDemirelKazakhstan/diploma-project-april/blob/main/Diploma%20Document/figures/Снимок%20экрана%202022-02-13%20в%2016.34.48.png)
+![](https://github.com/SuleymanDemirelKazakhstan/diploma-project-april/blob/main/Diploma%20Document/figures/Снимок%20экрана%202022-02-13%20в%2016.34.58.png)
+![](https://github.com/SuleymanDemirelKazakhstan/diploma-project-april/blob/main/Diploma%20Document/figures/Снимок%20экрана%202022-02-13%20в%2016.35.15.png)
+![](https://github.com/SuleymanDemirelKazakhstan/diploma-project-april/blob/main/Diploma%20Document/figures/Снимок%20экрана%202022-02-13%20в%2016.35.27.png)
+![](https://github.com/SuleymanDemirelKazakhstan/diploma-project-april/blob/main/Diploma%20Document/figures/Снимок%20экрана%202022-02-13%20в%2016.35.40.png)
+![](https://github.com/SuleymanDemirelKazakhstan/diploma-project-april/blob/main/Diploma%20Document/figures/Снимок%20экрана%202022-02-13%20в%2016.35.47.png)
+![](https://github.com/SuleymanDemirelKazakhstan/diploma-project-april/blob/main/Diploma%20Document/figures/Снимок%20экрана%202022-02-13%20в%2016.35.59.png)
+![](https://github.com/SuleymanDemirelKazakhstan/diploma-project-april/blob/main/Diploma%20Document/figures/Снимок%20экрана%202022-02-13%20в%2016.36.07.png)
 
 
 ## Non-functional requirements
@@ -103,7 +85,11 @@ The WEBSITE should work in all modern browsers, work well and look good on all s
 
 
 ## Risks 
-Our project is being done during a pandemic and there is a risk that a participant from our team may get sick, at this time we will need to replace him or finish his work.
++ The protective actions of sites can complicate the parsing process.
++ Due to the large number of requests, access to the site may be blocked or restricted, which will not allow collecting all the information.
++ Parsers are configured for a specific page design, and websites periodically update their content, in which case parsing may not work on the updated page.
++ Our project is being done during a pandemic and there is a risk that a participant from our team may get sick, at this time we will need to replace him or finish his work.
+
 
 
 ## Future iterations
