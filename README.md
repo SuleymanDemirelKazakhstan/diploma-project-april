@@ -9,7 +9,7 @@
 
 
 ## Project 
-Our project will make it possible to view and download the list of researcher's publications, and researchers can create their own portfolio, in which a list of publications will automatically appear and researchers add additional information if desired.
+Our project will make possible to view and download the list of researcher's publications, and researchers can create their own portfolio, in which a list of publications will automatically appear and researchers add additional information if desired.
 
 ## Alternative / Market research 
 Alternative sites - scopus, scholar, IEEEXplore. 
