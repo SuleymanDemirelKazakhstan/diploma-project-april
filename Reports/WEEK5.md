@@ -1,9 +1,14 @@
-# Jet Lee
-* Made kung-fu
-* Learned kung-fu
-# Jacky Chan
-* Learn kung-fu
-* Invented kung-fu
+# Arailym Abdrakhym
+* Drawing up an individual plan for each participant
+* Meeting with mentor
+# Albina Niyetullayeva
+* Write an individual plan
+* Made design of "Home page"
+
+# Aruzhan Kutzhan
+* Drawing up an individual plan for each participant
+* Data analysis & research [Scopus](https://www.scopus.com/home.uri)
+
 # Shynar Toktar
-* Learning Web scraping
-* Learning Python based Scopus Api
+* Learned Web scraping
+* Learned Python based Scopus Api
