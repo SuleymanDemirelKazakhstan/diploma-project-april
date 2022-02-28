@@ -1,7 +1,7 @@
 # Arailym Abdrakhym
 * Drawing up an individual plan for each participant
 * Meeting with mentor
-* Learned Scraping function on language [PYTHON](Learned Scraping function on language PYTHON)
+* Learned Scraping function on language [PYTHON](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
 
 # Albina Niyetullayeva
 * Write an individual plan
