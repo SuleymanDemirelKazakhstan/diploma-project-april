@@ -1,6 +1,9 @@
-# Jet Lee
-* Made kung-fu
-* Learned kung-fu
-# Jacky Chan
-* Learn kung-fu
-* Invented kung-fu
+# Arailym Abdrakhym 
++ Project confirmation with a mentor and form a group project plan.
+# Albina Niyetullayeva
+* Mockups, Wireframes of website
+# Shynar Toktar
+* Project confirmation with a mentor
+# Aruzhan Kutzhan
+* E-R diagram
+* Market analize
