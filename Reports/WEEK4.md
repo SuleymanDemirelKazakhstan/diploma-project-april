@@ -7,3 +7,5 @@
 # Aruzhan Kutzhan
 * E-R diagram
 * Market analize
+
+[Result on GitHub Page](https://github.com/SuleymanDemirelKazakhstan/diploma-project-april/blob/main/README.md)
