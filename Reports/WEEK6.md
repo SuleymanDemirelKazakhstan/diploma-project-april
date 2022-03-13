@@ -11,7 +11,7 @@
        + ![](https://github.com/SuleymanDemirelKazakhstan/diploma-project-april/blob/main/Diploma%20Document/figures/Снимок%20экрана%202022-03-10%20в%2014.31.46.png)
        + ![](https://github.com/SuleymanDemirelKazakhstan/diploma-project-april/blob/main/Diploma%20Document/figures/Снимок%20экрана%202022-03-12%20в%2002.07.22.png)
      + Arailym searched for an easy way of Parsing and came across several python libraries, initially she thought that she would use only bs4.BeautifulSoup
-       + [](https://github.com/SuleymanDemirelKazakhstan/diploma-project-april/blob/main/Diploma%20Document/figures/Снимок%20экрана%202022-03-12%20в%2002.30.02.png)
+       + ![](https://github.com/SuleymanDemirelKazakhstan/diploma-project-april/blob/main/Diploma%20Document/figures/Снимок%20экрана%202022-03-12%20в%2002.30.02.png)
        + []()
 *      
 *
