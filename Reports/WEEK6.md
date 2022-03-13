@@ -12,7 +12,7 @@
        + ![](https://github.com/SuleymanDemirelKazakhstan/diploma-project-april/blob/main/Diploma%20Document/figures/Снимок%20экрана%202022-03-12%20в%2002.07.22.png)
      + Arailym searched for an easy way of Parsing and came across several python libraries, initially she thought that she would use only bs4.BeautifulSoup
        + ![](https://github.com/SuleymanDemirelKazakhstan/diploma-project-april/blob/main/Diploma%20Document/figures/Снимок%20экрана%202022-03-14%20в%2001.57.08.png)
-     + and at the exit there was only an empty list,the task was set for the following weeks...
+     + She tried to launch several variants with code changes, the site blocked, and did not give information, and displayed only an empty list, then she used json, there were also errors in the code, and plus her partner - Shynar at that time considered another option using the API, then she also studied parsing methods with her using the API...
 
 # Albina Niyetullayeva
 * Website structure design, main elements of the site: Registration page, Help page, About us page
