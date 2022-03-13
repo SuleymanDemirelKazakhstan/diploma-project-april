@@ -16,7 +16,7 @@
 
 # Albina Niyetullayeva
 * Website structure design, main elements of the site: Registration page, Help page, About us page
-    * Made design of "Register page"
+    * Made design of Register page
        + ![](https://github.com/SuleymanDemirelKazakhstan/diploma-project-april/blob/main/Diploma%20Document/figures/IMAGE%202022-03-14%2002:25:13.jpg)
        + ![](https://github.com/SuleymanDemirelKazakhstan/diploma-project-april/blob/main/Diploma%20Document/figures/IMAGE%202022-03-14%2002:25:15.jpg)
    * Help page
@@ -24,7 +24,8 @@
        + ![](https://github.com/SuleymanDemirelKazakhstan/diploma-project-april/blob/main/Diploma%20Document/figures/IMAGE%202022-03-14%2002:25:41.jpg)
    * About us page
        + ![](https://github.com/SuleymanDemirelKazakhstan/diploma-project-april/blob/main/Diploma%20Document/figures/IMAGE%202022-03-14%2002:25:46.jpg)
-
+   * Logo
+       + ![](https://github.com/SuleymanDemirelKazakhstan/diploma-project-april/blob/main/Diploma%20Document/figures/IMAGE%202022-03-14%2003:51:56.jpg)
 # Aruzhan Kutzhan
 
 * Data analysis & research []()
