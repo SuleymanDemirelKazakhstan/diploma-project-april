@@ -12,7 +12,7 @@
        + ![](https://github.com/SuleymanDemirelKazakhstan/diploma-project-april/blob/main/Diploma%20Document/figures/Снимок%20экрана%202022-03-12%20в%2002.07.22.png)
      + Arailym searched for an easy way of Parsing and came across several python libraries, initially she thought that she would use only bs4.BeautifulSoup
        + ![](https://github.com/SuleymanDemirelKazakhstan/diploma-project-april/blob/main/Diploma%20Document/figures/Снимок%20экрана%202022-03-14%20в%2001.57.08.png)
-     + and at the exit there was only an empty list,the task was set for the following weeks
+     + and at the exit there was only an empty list,the task was set for the following weeks...
 
 # Albina Niyetullayeva
 * Website structure design, main elements of the site: Registration page, Help page, About us page
@@ -32,3 +32,9 @@
 
 # Shynar Toktar
 *  Python based Scopus Api
+       + ![](https://github.com/SuleymanDemirelKazakhstan/diploma-project-april/blob/main/Diploma%20Document/figures/Снимок%20экрана%202022-03-14%20в%2004.05.58.png)
+       + ![](https://github.com/SuleymanDemirelKazakhstan/diploma-project-april/blob/main/Diploma%20Document/figures/Снимок%20экрана%202022-03-14%20в%2004.08.08.png)
+       + ![](https://github.com/SuleymanDemirelKazakhstan/diploma-project-april/blob/main/Diploma%20Document/figures/Снимок%20экрана%202022-03-14%20в%2004.06.24.png)
+       + ![](https://github.com/SuleymanDemirelKazakhstan/diploma-project-april/blob/main/Diploma%20Document/figures/Снимок%20экрана%202022-03-14%20в%2004.06.27.png)
+       + ![](https://github.com/SuleymanDemirelKazakhstan/diploma-project-april/blob/main/Diploma%20Document/figures/Снимок%20экрана%202022-03-14%20в%2004.06.30.png)
+       + Exception: Error: The requestor is not authorized to access the requested view or fields of the resource url.The task was set for the following weeks...
