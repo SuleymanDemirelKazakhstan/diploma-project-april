@@ -95,8 +95,8 @@ iexplore("olimzhon")
  
 # Aruzhan Kutzhan
 
-* Data analysis & research 
-   + ![]()
+* Data analysis & research  Web of science
+   + ![](https://github.com/SuleymanDemirelKazakhstan/diploma-project-april/blob/main/Diploma%20Document/figures/IMAGE%202022-03-14%2016:31:52.jpg)
 
 # Shynar Toktar
 *      Parsing data from IEEE Xplore using Python
