@@ -33,11 +33,15 @@
 # Shynar Toktar
   * Learned: Python based Scopus Api  
     + ![](https://github.com/SuleymanDemirelKazakhstan/diploma-project-april/blob/main/Diploma%20Document/figures/IMAGE%202022-03-14%2004:30:11.jpg)
-    + ![](https://github.com/SuleymanDemirelKazakhstan/diploma-project-april/blob/main/Diploma%20Document/figures/Снимок%20экрана%202022-03-14%20в%2001.40.36.png)
+    + In the study of parsing, I realized that the functions and algorithms of parsing for each site will be separate, because the structure and protective functions of each site are different. We started the process of parsing sites from the Scopus site. You can parse SCOPUS using several options. And we started the parsing process with the Scopus api.
+    + ![](https://github.com/SuleymanDemirelKazakhstan/diploma-project-april/blob/main/Diploma%20Document/figures/Снимок%20экрана%202022-03-14%20в%2001.40.36.png)  осы суретты алып тастау
+    + Кодинг скопус уиз апи
+    + Access to documents is controlled using a combination of API Key and A&E authorization rights. Even if the APIKey is correctly configured for access, the account does not contain sufficient access rights. We paused work with the API because we did not get the data. Since our account does not have enough rights. After that, we started writing parsing code in parallel, which should work without API.
+    + сурет телеграм ошибка скрин 
   * Coding part
     + ![](https://github.com/SuleymanDemirelKazakhstan/diploma-project-april/blob/main/Diploma%20Document/figures/Снимок%20экрана%202022-03-14%20в%2004.05.58.png)
     + ![](https://github.com/SuleymanDemirelKazakhstan/diploma-project-april/blob/main/Diploma%20Document/figures/Снимок%20экрана%202022-03-14%20в%2004.08.08.png)
     + ![](https://github.com/SuleymanDemirelKazakhstan/diploma-project-april/blob/main/Diploma%20Document/figures/Снимок%20экрана%202022-03-14%20в%2004.06.24.png)
     + ![](https://github.com/SuleymanDemirelKazakhstan/diploma-project-april/blob/main/Diploma%20Document/figures/Снимок%20экрана%202022-03-14%20в%2004.06.27.png)
     + ![](https://github.com/SuleymanDemirelKazakhstan/diploma-project-april/blob/main/Diploma%20Document/figures/Снимок%20экрана%202022-03-14%20в%2004.06.30.png)
-       + Exception: Error: The requestor is not authorized to access the requested view or fields of the resource url.The task was set for the following weeks...
+    
