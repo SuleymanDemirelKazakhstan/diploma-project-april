@@ -1,6 +1,6 @@
 # Arailym Abdrakhym
 *    As PM, in the 7th week Arailym organized meetings with the members and with the mentor, and talked about the project and its progress,proof is below:
-    + [Youtube](https://www.youtube.com/watch?v=7-47GCr_iGI)
+      + [Youtube](https://www.youtube.com/watch?v=7-47GCr_iGI)
 
 *   Also divided the tasks within the framework of the [Notion](https://www.notion.so/c96f404fd204448ca2ba0e2da8b3b767?v=3b7a048427274732b44eaa8537c5ba3e) program so that participants of group do not forget about the diplom work
     + ![](https://github.com/SuleymanDemirelKazakhstan/diploma-project-april/blob/main/Diploma%20Document/figures/Снимок%20экрана%202022-03-14%20в%2004.52.05.png)
