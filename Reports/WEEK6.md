@@ -37,7 +37,8 @@
        + ![](https://github.com/SuleymanDemirelKazakhstan/diploma-project-april/blob/main/Diploma%20Document/figures/IMAGE%202022-03-14%2003:51:56.jpg)
 # Aruzhan Kutzhan
 
-* Data analysis & research []()
+* Data analysis & research Google Scholar
+* ![](https://github.com/SuleymanDemirelKazakhstan/diploma-project-april/blob/main/Diploma%20Document/figures/IMAGE%202022-03-14%2014:16:37.jpg)
 
 # Shynar Toktar
 * Learned: Python based Scopus Api  
