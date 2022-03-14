@@ -9,7 +9,7 @@
     + before starting to write code, Arailym with Shynar analyzed the site itself, which will be parsed, studied the code of this site, and then proceeded to the questions:"How will it parse?"
        + ![](https://github.com/SuleymanDemirelKazakhstan/diploma-project-april/blob/main/Diploma%20Document/figures/Снимок%20экрана%202022-03-14%20в%2005.36.43.png)
        + Coding part
-       + ![](https://github.com/SuleymanDemirelKazakhstan/diploma-project-april/blob/main/Diploma%20Document/figures/Снимок%20экрана%202022-03-14%20в%2005.27.55.png)
+       + ![](https://github.com/SuleymanDemirelKazakhstan/diploma-project-april/blob/main/Diploma%20Document/figures/IMAGE%202022-03-14%2012:50:56.jpg)
      + more precisely, it will be from below in the part of Shynar Toktar
 
 # Albina Niyetullayeva
@@ -20,7 +20,7 @@
        + ![](https://github.com/SuleymanDemirelKazakhstan/diploma-project-april/blob/main/Diploma%20Document/figures/IMAGE%202022-03-14%2003:53:40.jpg)
    * Result page
        + ![](https://github.com/SuleymanDemirelKazakhstan/diploma-project-april/blob/main/Diploma%20Document/figures/IMAGE%202022-03-14%2003:53:43.jpg)
-   * 
+   
 # Aruzhan Kutzhan
 
 * Data analysis & research []()
@@ -102,3 +102,5 @@ def parse():
 parse()
 
 ````
+* Result:
+![](https://github.com/SuleymanDemirelKazakhstan/diploma-project-april/blob/main/Diploma%20Document/figures/IMAGE%202022-03-14%2013:05:23.jpg)
