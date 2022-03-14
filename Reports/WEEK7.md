@@ -23,7 +23,8 @@
    
 # Aruzhan Kutzhan
 
-* Data analysis & research []()
+* Data analysis & research [IEEE Xplore](https://ieeexplore.ieee.org/Xplore/home.jsp)
+    + ![](https://github.com/SuleymanDemirelKazakhstan/diploma-project-april/blob/main/Diploma%20Document/figures/IMAGE%202022-03-14%2013:12:29.jpg)
 
 # Shynar Toktar
 *      Parsing data from Google Scholar using Python
