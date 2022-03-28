@@ -1187,4 +1187,5 @@ def doaj(lastname, name):
     return result
 
 ````
+* Result:
 ![](https://github.com/SuleymanDemirelKazakhstan/diploma-project-april/blob/main/Diploma%20Document/figures/sh_9.png)
