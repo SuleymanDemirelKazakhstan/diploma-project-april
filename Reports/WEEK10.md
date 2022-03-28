@@ -99,35 +99,41 @@ iexplore("olimzhon")
    + ![](https://github.com/SuleymanDemirelKazakhstan/diploma-project-april/blob/main/Diploma%20Document/figures/IMAGE%202022-03-14%2016:31:52.jpg)
 
 # Shynar Toktar
-*      Parsing data from IEEE Xplore using Python
+*      According to the plan, our task is Parsing data from Web of Science. I was analyzing the Website Web of Science. and I wrote a request. Result: the server understood the request, but refuses to authorize it.
+*      We decided not to waste time and chose another platform that has exactly the same level of importance. DOAJ is a platform of scientific articles in English.
+*      I created a DOAJ method that sends a request to the platform and receives data about the author and publications.
     + Coding part
 ````py
-def iexplore(querytext):
-    url_base = 'https://ieeexplore.ieee.org'
-    url = url_base + "/rest/search"
+import requests
+import json  # doaj parsing code end
+def doaj(lastname, name):
+    result = []
+    headers = {"Accept": "application/json"}
+    url = 'https://doaj.org/api/search/articles/' + lastname + '%20' + name
+    r = requests.get(url, headers=headers)
+    res = json.loads(r.text)
+    i = 1
+    for rec in res['results']:
+        reslist = {}
+        aut = []
+        for au in rec['bibjson']['author']:
+            aut.append(au['name'])
+        reslist["Site"] = "DOAJ publication №" + str(i)
+        i += 1
+        reslist['Authors'] = ",".join(aut)
+        reslist["Title"] = rec['bibjson']['title'] # title
+        reslist['Link'] =  rec['bibjson']['link'][0]['url']  # link
+        reslist['Year']= rec['bibjson']['year']  # year
+        reslist['Publisher']  = rec['bibjson']['journal']['publisher']  # publisher
+        reslist['Where published'] = rec['bibjson']['journal']['title']
+       # print('displayContentType:  ' + rec['displayContentType'])  # content type
+        reslist['PP.'] = rec['bibjson']['start_page'] + ' - ' + rec['bibjson']['end_page']
+        reslist['Volume'] = rec['bibjson']['journal']['volume']
+        reslist['Number'] = rec['bibjson']['journal']['number']  # size
+        result.append(reslist)
 
+    return result
 
-    payload = json.dumps({
-      "newsearch": True,
-      "queryText": querytext,
-      "highlight": True,
-      "returnFacets": [
-        "ALL"
-      ],
-      "returnType": "SEARCH",
-      "matchPubs": True
-    })
-    headers = {
-      'Content-Type': 'application/json',
-      'Accept': 'application/json, text/plain, */*',
-      'Accept-Language': 'en-US,en;q=0.9',
-      'Origin': 'https://ieeexplore.ieee.org',
-      'Cookie': 'JSESSIONID=1f1uodkJQyFydS1nj60dhUga9TzcL1eSS2GtBmSb4I2UWoFyct4e!-1059566563; TS01b03060=012f3506239362e2457f97d2093c7ee2a7ae609257d4f289c6faeaf1e87e8b729d50e85168a48a955b71aa49179c7761b2b63e68b1; WLSESSION=203580044.20480.0000; ipCheck=46.34.147.74'
-    }
-
-    response = requests.request("POST", url, headers=headers, data=payload)
-
-    out = json.loads(response.text)
 
 ````
 ![](https://github.com/SuleymanDemirelKazakhstan/diploma-project-april/blob/main/Diploma%20Document/figures/Снимок%20экрана%202022-03-14%20в%2014.32.09.png)
