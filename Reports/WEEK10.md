@@ -7,6 +7,9 @@
     + ![](https://github.com/SuleymanDemirelKazakhstan/diploma-project-april/blob/main/Diploma%20Document/figures/10_notion.png)
     + ![](https://github.com/SuleymanDemirelKazakhstan/diploma-project-april/blob/main/Diploma%20Document/figures/Снимок%20экрана%202022-03-28%20в%2015.26.06.png)
 *          Parsing data from PubMed using Python:
+* According to the plan, our task is Parsing data from Science Direct. I was analyzing the Science Direct. and I wrote a request. Result: the server understood the request, but refuses to authorize it. We decided not to waste time and chose another platform that has exactly the same level of importance.
+* Science Direct - a tool from the Dutch publishing house Elsevier, which supports the workflow, allowing you to freely move between works in various disciplines. Paid.
+* The National Center for Biotechnological Information promotes the development of science and health by providing access to the biomedical and genomic database, which includes GenBank and the PubMed search engine. It is of great value for those interested in biomedicine. Is free.
    * learned scraping of [PubMed](https://pubmed.ncbi.nlm.nih.gov/)
        + ![](https://github.com/SuleymanDemirelKazakhstan/diploma-project-april/blob/main/Diploma%20Document/figures/10_analyze.png)
        + Coding part
