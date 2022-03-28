@@ -2145,7 +2145,7 @@ Since our site will collect a number of publications, it is important to us that
    + [https://habr.com/ru/post/143035/](https://habr.com/ru/post/143035/)
 
 # Shynar Toktar
-*      This week I created a new method as the main one that runs parsing methods for 5 sites. to get results from all sites on the same types, I added lists and dictionaries to the methods and changed some points.
+*      This week I created a new method as the main one that runs parsing methods for 4 sites. to get results from all sites on the same types, I added lists and dictionaries to the methods and changed some points.
 ````py
 from doaj import *
 from pubmed import *
