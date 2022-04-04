@@ -29,6 +29,7 @@
     + Coding part
     + [API Call: https://api.elsevier.com/content/search/index:SCOPUS?query=AUTHLASTNAME(olimzhon)&apikey=16d73d54a99ebb00d7c13b6d00fe2fb1](https://api.elsevier.com/content/search/index:SCOPUS?query=AUTHLASTNAME(olimzhon)&apikey=16d73d54a99ebb00d7c13b6d00fe2fb1)
     + ![](https://github.com/SuleymanDemirelKazakhstan/diploma-project-april/blob/main/Diploma%20Document/figures/IMAGE%202022-04-04%2014:38:02.jpg)
+    + Coding part
 ````py
 
 from pybliometrics.scopus import ScopusSearch
