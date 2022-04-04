@@ -1,6 +1,6 @@
 # Arailym Abdrakhym
 *    In the 11th week Arailym organized meetings with the members and mentor, and talked about the project and its progress,proof is below:
-      + [Youtube](...)
+      + [Youtube](https://youtu.be/P1cDPUIgxtI)
 
 *   Also divided the tasks within the framework of the [Notion](https://www.notion.so/c96f404fd204448ca2ba0e2da8b3b767?v=3b7a048427274732b44eaa8537c5ba3e) program so that participants of group do not forget about the diplom work
     + ![](https://github.com/SuleymanDemirelKazakhstan/diploma-project-april/blob/main/Diploma%20Document/figures/11.pm.png)
@@ -12,6 +12,7 @@
        + Working with dates (updating the schedule in real time)
        + Working with the Seaborn library
        + [https://devpractice.ru/matplotlib-lesson-1-quick-start-guide/](https://devpractice.ru/matplotlib-lesson-1-quick-start-guide/)
+       + [https://python-scripts.com/matplotlib](https://python-scripts.com/matplotlib)
       
 
 # Albina Niyetullayeva
