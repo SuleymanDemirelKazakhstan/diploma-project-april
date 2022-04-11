@@ -1,4 +1,3 @@
-import subprocess
 import os
 from parsing_all import *
 
@@ -33,19 +32,5 @@ def run():
     print(latex_code)
     print(f'Generated {tex_filename}')
 
-    '''
-    if os.path.isfile('restex.tex'):
-        print('The file is present.')
-    else:
-        print('The file is not present.')
-
-
-    process = subprocess.Popen([
-        'latex',  # Or maybe 'C:\\Program Files\\MikTex\\miktex\\bin\\latex.exe
-        '-output-format=pdf',
-        '-job-name=' + 'res_pdf.pdf',
-        r'C:/Users/User/Desktop/Diploma Project/restex.tex'])
-    process.wait()
-    '''
-
+    os.system("pdflatex restex.tex")
 run()
