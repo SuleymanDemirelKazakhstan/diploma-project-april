@@ -1,0 +1,89 @@
+\documentclass[12pt]{article}
+
+%% Define some new colors
+\usepackage{xcolor}
+\definecolor{mBlue}{RGB}{51, 77, 167}
+\newcommand{\blue}[1]{{\color{mBlue}#1}}
+
+%% Page and text formatting
+\usepackage[left=1.0in, right=1.0in, top=1.0in, bottom=1.0in]{geometry} % margins
+\usepackage{setspace}
+\singlespacing % No more than 6 lines of text per inch
+\usepackage[T1]{fontenc}
+\usepackage{times}
+
+%% Set up footer
+\usepackage{fancyhdr}
+\fancypagestyle{CVfooter}
+{
+ \lhead{}
+ \chead{}
+ \rhead{}
+ \lfoot{}
+ \cfoot{}
+ \rfoot{\small{\thepage/9}}
+ \renewcommand{\headrulewidth}{0.0pt}
+ \renewcommand{\footrulewidth}{0.5pt}
+}
+
+%% Set up hyperlinks
+\usepackage[linktoc=page]{hyperref}
+\hypersetup{
+  colorlinks = true,
+  urlcolor = mBlue,
+  citecolor = mBlue,
+  linkcolor = mBlue,
+}
+
+
+%% Reduce whitespace around lists (globally)
+\ifx\pdfoutput\undefined
+\usepackage{graphicx}
+\else
+\usepackage[pdftex]{graphicx}
+\fi
+\usepackage{enumitem}
+\usepackage{graphicx}%Вставка картинок правильная
+\usepackage{float}%"Плавающие" картинки
+
+\usepackage{wrapfig}%Обтекание фигур (таблиц, картинок и прочего)
+\setlist[itemize]{nosep,left=0pt}
+\setlist[enumerate]{nosep}
+\setlist[description]{nosep}
+
+%% Formatting for sections
+\usepackage[compact]{titlesec}
+\titleformat*{\section}{\normalsize\bfseries}
+\titlespacing*{\section}{0mm}{2mm}{1mm}[0mm] % left top bottom right
+
+\usepackage[export]{adjustbox}
+
+\begin{document}
+\pagestyle{CVfooter}
+
+\begin{minipage}{.2\linewidth}
+\centering
+\includegraphics[width = 2.25cm, height=3cm,frame, left]{Profile.jpg}
+\vspace{2mm}
+\end{minipage}
+\begin{minipage}{.7\linewidth}
+\noindent\begin{tabular}{l*{3}{l}r}
+Name: & \VAR{NAME}\\[0.3cm]
+Email: & \href{\VAR{EMAIL}}{\VAR{EMAIL}} \\ [0.3cm]
+Position: & \VAR{POS}\\ [0.3cm]
+Affilation: & \VAR{AFF} \\ [0.3cm]
+\end{tabular}
+\end {minipage}
+
+\hline
+
+\section*{Publications}
+\vspace{2mm}
+
+\begin{enumerate}
+
+    \VAR{PUBLIST}
+
+\end{enumerate}
+
+\end{document}
