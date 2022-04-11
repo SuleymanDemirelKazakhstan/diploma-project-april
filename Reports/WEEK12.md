@@ -156,8 +156,6 @@ Affilation: & \VAR{AFF} \\ [0.3cm]
    + Code for inserting data about the publication and about the author on the template
 
 ````py
-
-import subprocess
 import os
 from parsing_all import *
 
@@ -192,22 +190,9 @@ def run():
     print(latex_code)
     print(f'Generated {tex_filename}')
 
-    '''
-    if os.path.isfile('restex.tex'):
-        print('The file is present.')
-    else:
-        print('The file is not present.')
-
-
-    process = subprocess.Popen([
-        'latex',  # Or maybe 'C:\\Program Files\\MikTex\\miktex\\bin\\latex.exe
-        '-output-format=pdf',
-        '-job-name=' + 'res_pdf.pdf',
-        r'C:/Users/User/Desktop/Diploma Project/restex.tex'])
-    process.wait()
-    '''
-
+    os.system("pdflatex restex.tex")
 run()
+
 ````
 + Result
-+ ![](https://github.com/SuleymanDemirelKazakhstan/diploma-project-april/blob/main/Diploma%20Document/figures/Sh_2.jpg)
++ ![](https://github.com/SuleymanDemirelKazakhstan/diploma-project-april/blob/main/Diploma%20Document/figures/шы.jpg)
