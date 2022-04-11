@@ -53,9 +53,11 @@ plt.show()
   
    * is a form backend, API, and email service for HTML & JavaScript forms. It's the simplest way to embed custom contact us forms, order forms.
 # Aruzhan Kutzhan
-
-* Going to filter and displays the final result on the website
-
+* Analyse framework sql for backend part.
+* During the integration of the frontend and Backend in our team, it turned out that the user of the macbook, an error occurs during the runserver, the error is that he does not see sqlite3, which was automatically linked to the Django framework directly. And the Project manager gave me a task , " to analyze databases that can be linked to Django, and provide the best alternative version on sqlite3, or the best version of the solution.
+* Django is initially linked to sqlite3, and it does not work in a mac with a ready-made code template (but everything works fine in windows10), but there are several solutions:
+   + Install the libsqlit4-dev library, and recode the sqlite3 code.
+   + Also an alternative to the mac running postgresql, recoding the original code template for it, install the necessary libraries.
 
 # Shynar Toktar
 *      Latex template for pdf file
