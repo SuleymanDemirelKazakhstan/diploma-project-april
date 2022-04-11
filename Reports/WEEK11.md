@@ -66,6 +66,8 @@ for i in range(len(title)):
                 a +=1
 print(len(all))
 ````
+* Result
+* ![](https://github.com/SuleymanDemirelKazakhstan/diploma-project-april/blob/main/Diploma%20Document/figures/Снимок%20экрана%202022-04-11%20в%2017.22.08.png)
 
 # Shynar Toktar
 *      Parsing data from Scopus using Python
