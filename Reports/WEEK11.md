@@ -15,9 +15,11 @@
       
 
 # Albina Niyetullayeva
-* Learned Formspree
-  
-   * is a form backend, API, and email service for HTML & JavaScript forms. It's the simplest way to embed custom contact us forms, order forms.
+* ![](https://github.com/SuleymanDemirelKazakhstan/diploma-project-april/blob/main/Diploma%20Document/figures/7481e1be-5e6d-45ba-8d08-f51ca1eb4aca.jpg)
+* ![](https://github.com/SuleymanDemirelKazakhstan/diploma-project-april/blob/main/Diploma%20Document/figures/bfd77907-5515-4f91-ac0a-548e16143481.jpg)
+* ![](https://github.com/SuleymanDemirelKazakhstan/diploma-project-april/blob/main/Diploma%20Document/figures/82fe054e-f24a-4225-b8f5-dc1e03b90e96.jpg)
+
+
 # Aruzhan Kutzhan
 
 * Filtered and displayed the final result on the website
