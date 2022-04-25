@@ -7,6 +7,8 @@
 
    + Created domain 
    ![](https://github.com/SuleymanDemirelKazakhstan/diploma-project-april/blob/main/Diploma%20Document/figures/Снимок%20экрана%202022-04-25%20в%2016.34.55.png)
+   + Create local server
+   + ![](https://github.com/SuleymanDemirelKazakhstan/diploma-project-april/blob/main/Diploma%20Document/figures/IMAGE%202022-04-25%2016:36:14.jpg)
       
 
 # Albina Niyetullayeva
