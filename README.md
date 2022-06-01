@@ -16,7 +16,15 @@ Alternative sites - scopus, scholar, IEEEXplore.
 These sites are databases that houses articles from many different publishers. Each of them does not give a complete list of the publications of the researchers our task is to combine, filter and as a result collect a complete list of the works of the researchers.
 
 
-__Жирный__
+__Advantages__
+1. There is an advanced search by publications, by author and by organizations
+2. When searching for a user, you can set the year, which is convenient for the user
+3. There is the author’s data in the form of graphics
+4. In some sites, you can download the publication for free
+
+__Disadvantages
+1. Access to data only if the user logs in from an organization allowed 
+
 
 ## Goals
 Developing web application/ web scraping system for automatisation process of bibliometric data collection. 
