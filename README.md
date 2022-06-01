@@ -22,7 +22,7 @@ __Advantages__
 3. There is the author’s data in the form of graphics
 4. In some sites, you can download the publication for free
 
-__Disadvantages
+__Disadvantages__
 1. Access to data only if the user logs in from an organization allowed 
 
 
