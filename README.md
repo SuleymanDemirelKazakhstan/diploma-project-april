@@ -14,6 +14,7 @@ Our project will make possible to view and download the list of researcher's pub
 ## Alternative / Market research 
 Alternative sites - scopus, scholar, IEEEXplore. 
 These sites are databases that houses articles from many different publishers. Each of them does not give a complete list of the publications of the researchers our task is to combine, filter and as a result collect a complete list of the works of the researchers.
+__Жирный__
 
 ## Goals
 Developing web application/ web scraping system for automatisation process of bibliometric data collection. 
