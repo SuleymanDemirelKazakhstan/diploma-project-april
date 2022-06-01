@@ -15,7 +15,7 @@ Our project will make possible to view and download the list of researcher's pub
 Alternative sites - scopus, scholar, IEEEXplore. 
 These sites are databases that houses articles from many different publishers. Each of them does not give a complete list of the publications of the researchers our task is to combine, filter and as a result collect a complete list of the works of the researchers.
 
-
+[Scopus](https://www.scopus.com/home.uri?zone=header&origin=)
 __Advantages__
 1. There is an advanced search by publications, by author and by organizations
 2. When searching for a user, you can set the year, which is convenient for the user
@@ -24,6 +24,19 @@ __Advantages__
 
 __Disadvantages__
 1. Access to data only if the user logs in from an organization allowed 
+
+[IEEE Xplore](https://ieeexplore.ieee.org/Xplore/home.jsp)
+__Advantages__
+__Disadvantages__
+[Google Scholar](https://scholar.google.com/)
+__Advantages__
+__Disadvantages__
+[Science Direct](https://www.sciencedirect.com/)
+__Advantages__
+__Disadvantages__
+[Web of Science](https://access.clarivate.com/login?app=wos&alternative=true&shibShireURL=https:%2F%2Fwww.webofknowledge.com%2F%3Fauth%3DShibboleth&shibReturnURL=https:%2F%2Fwww.webofknowledge.com%2F&roaming=true)
+__Advantages__
+__Disadvantages__
 
 
 ## Goals
