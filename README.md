@@ -18,41 +18,49 @@ These sites are databases that houses articles from many different publishers. E
 [Scopus](https://www.scopus.com/home.uri?zone=header&origin=)
 __Advantages__
 1. There is an advanced search by publications, by author and by organizations
-2. When searching for a user, you can set the year, which is convenient for the user
-3. There is the author’s data in the form of graphics
-4. In some sites, you can download the publication for free
+2. Search parameters
+3. There are graphics on the areas of the author’s publication
 
 __Disadvantages__
-1. Access to data only if the user logs in from an organization allowed 
+1. Access to data only if the user logs in from an organization allowed by Scopus
 
 
 [IEEE Xplore](https://ieeexplore.ieee.org/Xplore/home.jsp)
 
 __Advantages__
+1. Advanced search on the site
+2. It is possible to adjust the year during the search, which is convenient for the user
+3. It is possible to filter by publication names
+4. It is possible to export by these parameters
 
 __Disadvantages__
-
+1. There is no access to the publication itself, but there is an opportunity to buy the publication
 
 [Google Scholar](https://scholar.google.com/)
 
 __Advantages__
-
-__Disadvantages__
+1. When searching, it is possible to configure the year, time, etc.
+2. There is the author’s data in the form of graphics
+3. It is possible to download the publication for free
 
 
 [Science Direct](https://www.sciencedirect.com/)
 
 __Advantages__
+1. Every can view the publication for free and download all publications
+2. Advanced Search
 
 __Disadvantages__
-
+1. No author profile
 
 [Web of Science](https://access.clarivate.com/login?app=wos&alternative=true&shibShireURL=https:%2F%2Fwww.webofknowledge.com%2F%3Fauth%3DShibboleth&shibReturnURL=https:%2F%2Fwww.webofknowledge.com%2F&roaming=true)
 
 __Advantages__
+1. Advanced Search
+2. Exporting data by these parameters
 
 __Disadvantages__
-
+1. Limited access, only login for certain organizations.
 
 ## Goals
 Developing web application/ web scraping system for automatisation process of bibliometric data collection. 
