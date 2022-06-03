@@ -12,10 +12,13 @@
 Our project will make possible to view and download the list of researcher's publications, and researchers can create their own portfolio, in which a list of publications will automatically appear and researchers add additional information if desired.
 
 ## Alternative / Market research 
-Alternative sites - scopus, scholar, IEEEXplore. 
+Alternative sites - Scopus, IEEEXplore, Google Scholar, Science Direct, Web of science.
 These sites are databases that houses articles from many different publishers. Each of them does not give a complete list of the publications of the researchers our task is to combine, filter and as a result collect a complete list of the works of the researchers.
 
-[Scopus](https://www.scopus.com/home.uri?zone=header&origin=)
+[Scopus](https://www.scopus.com/home.uri?zone=header&origin=) is a website containing publications and citations. Scopus contains profiles of authors, the number of publications and their bibliographic data, references and detailed information about the number of citations received
+by each published document.
+
+
 __Advantages__
 1. There is an advanced search by publications, by author and by organizations
 2. Search parameters
@@ -25,7 +28,7 @@ __Disadvantages__
 1. Access to data only if the user logs in from an organization allowed by Scopus
 
 
-[IEEE Xplore](https://ieeexplore.ieee.org/Xplore/home.jsp)
+[IEEE Xplore](https://ieeexplore.ieee.org/Xplore/home.jsp) is a research platform that provides access to articles, publications, and conference materials. The database mainly includes materials from the Institute of Electrical and Electronics Engineers) and the Institute of Engineering and Technology.
 
 __Advantages__
 1. Advanced search on the site
@@ -36,7 +39,7 @@ __Advantages__
 __Disadvantages__
 1. There is no access to the publication itself, but there is an opportunity to buy the publication
 
-[Google Scholar](https://scholar.google.com/)
+[Google Scholar](https://scholar.google.com/) is a free, accessible search engine for full texts of scientific publications of all formats and disciplines. 
 
 __Advantages__
 1. When searching, it is possible to configure the year, time, etc.
@@ -44,7 +47,7 @@ __Advantages__
 3. It is possible to download the publication for free
 
 
-[Science Direct](https://www.sciencedirect.com/)
+[Science Direct](https://www.sciencedirect.com/) is a database of scientific research. It belongs to the publisher Elsevier and contains about 10 million articles. The articles are grouped into four main sections: physical and engineering sciences, natural sciences, medical sciences, as well as social and humanitarian sciences.
 
 __Advantages__
 1. Every can view the publication for free and download all publications
@@ -53,7 +56,7 @@ __Advantages__
 __Disadvantages__
 1. No author profile
 
-[Web of Science](https://access.clarivate.com/login?app=wos&alternative=true&shibShireURL=https:%2F%2Fwww.webofknowledge.com%2F%3Fauth%3DShibboleth&shibReturnURL=https:%2F%2Fwww.webofknowledge.com%2F&roaming=true)
+[Web of Science](https://access.clarivate.com/login?app=wos&alternative=true&shibShireURL=https:%2F%2Fwww.webofknowledge.com%2F%3Fauth%3DShibboleth&shibReturnURL=https:%2F%2Fwww.webofknowledge.com%2F&roaming=true) is a platform from Clarivate Analytics. It consists of an extensive collection of bibliographic databases, citations, and links to scientific publications. 
 
 __Advantages__
 1. Advanced Search
