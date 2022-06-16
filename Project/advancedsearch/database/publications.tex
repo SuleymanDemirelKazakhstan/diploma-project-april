@@ -1,0 +1,105 @@
+\documentclass[12pt]{article}
+
+%% Define some new colors
+\usepackage{xcolor}
+\definecolor{mBlue}{RGB}{51, 77, 167}
+\newcommand{\blue}[1]{{\color{mBlue}#1}}
+
+%% Page and text formatting
+\usepackage[left=1.0in, right=1.0in, top=1.0in, bottom=1.0in]{geometry} % margins
+\usepackage{setspace}
+\singlespacing % No more than 6 lines of text per inch
+\usepackage[T1]{fontenc}
+\usepackage{times}
+
+%% Set up footer
+\usepackage{fancyhdr}
+\fancypagestyle{CVfooter}
+{
+ \lhead{}
+ \chead{}
+ \rhead{}
+ \lfoot{}
+ \cfoot{}
+ \rfoot{\small{\thepage/9}}
+ \renewcommand{\headrulewidth}{0.0pt}
+ \renewcommand{\footrulewidth}{0.5pt}
+}
+
+%% Set up hyperlinks
+\usepackage[linktoc=page]{hyperref}
+\hypersetup{
+  colorlinks = true,
+  urlcolor = mBlue,
+  citecolor = mBlue,
+  linkcolor = mBlue,
+}
+
+
+%% Reduce whitespace around lists (globally)
+\ifx\pdfoutput\undefined
+\usepackage{graphicx}
+\else
+\usepackage[pdftex]{graphicx}
+\fi
+\usepackage{enumitem}
+\usepackage{graphicx}%Вставка картинок правильная
+\usepackage{float}%"Плавающие" картинки
+
+\usepackage{wrapfig}%Обтекание фигур (таблиц, картинок и прочего)
+\setlist[itemize]{nosep,left=0pt}
+\setlist[enumerate]{nosep}
+\setlist[description]{nosep}
+
+%% Formatting for sections
+\usepackage[compact]{titlesec}
+\titleformat*{\section}{\normalsize\bfseries}
+\titlespacing*{\section}{0mm}{2mm}{1mm}[0mm] % left top bottom right
+
+\usepackage[export]{adjustbox}
+
+\begin{document}
+\pagestyle{CVfooter}
+
+\begin{minipage}{.2\linewidth}
+\centering
+\includegraphics[width = 2.25cm, height=3cm,frame, left]{Profile.jpg}
+\vspace{2mm}
+\end{minipage}
+\begin{minipage}{.7\linewidth}
+\noindent\begin{tabular}{l*{3}{l}r}
+Name: & Bogdanchikov Andrey\\[0.3cm]
+Email: & \href{andrey.bogdanchikov@sdu.edu.kz}{andrey.bogdanchikov@sdu.edu.kz} \\ [0.3cm]
+Position: & Associate Professor in Computer Sciences Department\\ [0.3cm]
+Affilation: & Suleyman Demirel University \\ [0.3cm]
+\end{tabular}
+\end {minipage}
+
+
+\section*{Publications}
+\vspace{2mm}
+
+\begin{enumerate}
+
+    
+\item Kangozhin, B. R.;Baimuratov, O. A.;Zharmagambetova, M. S.;Dautov, S. S.;Kangozhin, D. B., \href{None}{Noise Immunity of Devices of Automated Systems for Technological Control of Energy Facilities in the Almaty Region}, Studies in Systems, Decision and Control, 2022, pp.277-290.
+\item Aitchanov, Bekmurza;Baimuratov, Olimzhon;Zhussupekov, Muratbek;Aitzhanov, Tleu, \href{None}{Contact Centers Management Models: Analysis and Recommendations}, SIST 2021 - 2021 IEEE International Conference on Smart Information Systems and Technologies, 28 April 2021
+\item Tulemissova, Gulfarida;Baimuratov, Olimzhon, \href{None}{Review of Electronic Industry in Kazakhstan: Conditions and Opportunities}, Proceedings - 2021 16th International Conference on Electronics Computer and Computation, ICECCO 2021, 2021
+\item Kuanyshbay, Darkhan;Baimuratov, Olimzhon;Amirgaliyev, Yedilkhan;Kuanyshbayeva, Arailym, \href{None}{Speech data collection system for Kazakh language}, Proceedings - 2021 16th International Conference on Electronics Computer and Computation, ICECCO 2021, 2021
+\item Aitchanov, Bekmurza;Baimuratov, Olimzhon;Zhussupekov, Muratbek;Aitchanov, Tley, \href{None}{Analysis of Key Elements for Modern Contact Center Systems to Improve Quality}, Lecture Notes on Data Engineering and Communications Technologies, 2021, pp.162-174.
+\item Tulemissova, Gulfarida;Baimuratov, Olimzhon, \href{None}{Cyber security system of FPGA platform for wireless sensor networks}, European Conference on Information Warfare and Security, ECCWS, 2020, pp.351-361.
+\item Aziza, Aipenova;Araily, Khuandykh;Olimzhon, Baimuratov, \href{None}{The analysis of indexes quality of a healthcare in Kazakhstan}, 14th International Conference on Electronics Computer and Computation, ICECCO 2018, 4 February 2019
+\item Aitchanov, B. Kh;Baimuratov, O. A.;Aldibekova, A. N., \href{None}{Development of the system with NMR based on electromagnetic coils for milk processing}, 14th International Conference on Electronics Computer and Computation, ICECCO 2018, 4 February 2019
+\item Aitimov, M. Zh;Ozhikenov, K. A.;Aitimova, U. Zh;Dauitbayeva, A. O.;Baimuratov, O. A., \href{None}{Analysis of the structure and calculation of time for the environmental monitoring system with multi-parameter sensors}, News of the National Academy of Sciences of the Republic of Kazakhstan, Series of Geology and Technical Sciences, 2017, pp.149-156.
+\item Mukhanov, Bakhyt;Omirbekova, Zhanar;Alimanova, Madina;Jumadilova, Shynara;Kozhamzharova, Dinara;Baimuratov, Olimzhon, \href{None}{A model of virtual training application for simulation of technological processes}, Procedia Computer Science, 2015, pp.177-182.
+\item Kuandykov, Abu;Uskenbayeva, Raissa;Cho, Young Im;Kozhamzharova, Dinara;Baimuratov, Olimzhon;Chinibayev, Yersain;Karimzhan, Nurlan, \href{None}{Multi-agent based anti-locust territory protection system}, Procedia Computer Science, 2015, pp.477-483.
+\item Kuandykov, A. A.;Uskenbayeva, R. K.;Cho, Y. I.;Kozhamzharova, D. K.;Baimuratov, O. A.;Karimzhan, N.;Chinibayev, Y., \href{None}{Analysis and development of agent architecture for pest control systems}, Procedia Computer Science, 2015, pp.139-144.
+\item Uskenbayeva, R. K.;Kuandykov, A. A.;Cho, Y. I.;Kozhamzharova, D. K.;Baimuratov, O. A., \href{None}{Main principles of task distribution in multi-agent systems and defining basic parameters}, International Conference on Control, Automation and Systems, 16 December 2014, pp.1471-1474.
+\item Kuandykov, Abu A.;Baimuratov, Olimzhon A.;Kozhamzharova, Dinara K.;Karimzhan, Nurlan B., \href{None}{Design and construction a model of remote control software mobile robot for MAS}, 8th IEEE International Conference on Application of Information and Communication Technologies, AICT 2014 - Conference Proceedings, 2014
+\item Tokenov, Nurmakhan;Dzhamanbayev, Muratkali;Bekbayev, Amangeldi;Eskendirova, Damelya;Baimuratov, Olimzhon, \href{None}{Mathematical model for calculating aerodynamic characteristics of overhead transmission lines}, Applied Mechanics and Materials, 2014, pp.52-59.
+\item Yessenturayeva, Laura Bigelovna;Mendakulov, Zhassulan Korobaevich;Kozhamzharova, Dinara Khanatovna;Baimuratov, Olimzhon Abdukhakimovich, \href{None}{Using of MIMO-OFDM technology in radio access systems}, World Applied Sciences Journal, 2014, pp.133-137.
+\item Aitchanov, Bekmurza H.;Nikulin, Vladimir V.;Baimuratov, Olimzhon A., \href{None}{Mathematical modeling of digital pulse-frequency modulation control systems developed for objects with transport delay}, 2013 25th Chinese Control and Decision Conference, CCDC 2013, 2013, pp.1407-1411.
+
+\end{enumerate}
+
+\end{document}
